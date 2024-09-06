@@ -45,3 +45,62 @@ body {
 .gallery-image:hover {
   transform: scale(1.05);
 }
+
+
+.feedback-form {
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  min-height: 296px;
+  border: 2px solid #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+}
+
+/* Стилі для полів вводу */
+.feedback-form label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  
+}
+
+.feedback-form input[type="email"],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #2E2F42;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.feedback-form input[type="email"] {
+  height: 40px;
+}
+
+/* Стилі для кнопки */
+.feedback-form button {
+  display: block;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  color: #fff;
+  background-color: #4e75ff;
+  border: none;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #6c8cff;
+}
